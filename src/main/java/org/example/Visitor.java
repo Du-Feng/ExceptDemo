@@ -10,4 +10,10 @@ public class Visitor {
     public Visitor(String name) {
         this.name = name;
     }
+
+    private String fullname;
+
+    public String getFullname() {
+        return fullname;
+    }
 }

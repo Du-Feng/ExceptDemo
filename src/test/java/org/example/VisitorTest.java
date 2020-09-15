@@ -13,4 +13,12 @@ public class VisitorTest extends TestCase {
 
     public void testTestGetName() {
     }
+
+    @org.junit.jupiter.api.Test
+    void testGetName() {
+    }
+
+    @org.junit.jupiter.api.Test
+    void getFullname() {
+    }
 }
