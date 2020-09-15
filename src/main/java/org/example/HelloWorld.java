@@ -23,4 +23,15 @@ public class HelloWorld {
     public HelloWorld(String name) {
         this.name = name;
     }
+
+    public String getFullname() {
+        return fullname;
+    }
+
+    private String fullname;
+
+    public HelloWorld(String name, String fullname) {
+        this.name = name;
+        this.fullname = fullname;
+    }
 }
