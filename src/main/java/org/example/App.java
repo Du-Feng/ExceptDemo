@@ -11,6 +11,7 @@ public class App {
      * @param args
      */
     public static void main(String[] args) {
+        // add one comment
         FileReader fr = null;
         try {
             File file = new  File("E://file.txt");
